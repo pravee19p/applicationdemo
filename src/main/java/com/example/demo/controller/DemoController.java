@@ -15,6 +15,17 @@ public class DemoController {
 		return "welcome to demo application";
 	}
 	
+	@GetMapping("/greeting")
+	public String greetingMethod() {
+		return "greetings";
+		
+	}
+	@GetMapping("/hello")
+	public String helloMethod() {
+		return "Hello";
+		
+	}
+	
 	
 
 }
